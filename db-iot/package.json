@@ -1,0 +1,32 @@
+{
+  "name": "db-iot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolasrestrepo/node-iot.git"
+  },
+  "keywords": [
+    "IoT",
+    "Node",
+    "postgresql"
+  ],
+  "author": "Nicolas Restrepo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicolasrestrepo/node-iot/issues"
+  },
+  "homepage": "https://github.com/nicolasrestrepo/node-iot#readme",
+  "devDependencies": {
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.31.2"
+  }
+}
